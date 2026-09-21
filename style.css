@@ -351,6 +351,7 @@ img, .logo {
   width: 100px;
   height: auto;
   border-radius: 4px;
+  margin-top: -0.9rem;
 }
 
 .header-right h1 {
