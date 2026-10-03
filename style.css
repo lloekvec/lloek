@@ -101,9 +101,11 @@ nav a:hover {
 
 .two-column {
   display: grid;
-  grid-template-columns: 240px 1fr;
+  grid-template-columns: minmax(150px, 240px) 1fr; /* Sidebar wird nie schmaler als 150px, aber nie breiter als 240px */
   gap: 2rem;
   margin-top: 2rem;
+  max-width: 100%; /* Verhindert, dass die .two-column-Klasse breiter als der Bildschirm wird */
+  width: 100%;
 }
 
 /* ===========================
